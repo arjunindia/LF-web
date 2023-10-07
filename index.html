@@ -34,7 +34,7 @@
             const response = await fetch(`https://api.github.com/repos/arjunindia/LF-web/contents/${file.name}`);
             const files = await response.json();
             const image = files.find(file => file.name.endsWith('.jpg') || file.name.endsWith('.png'));
-            file.imageurl = image.download_url;
+            if(image) file.imageurl = image.download_url;
           }
           
           let htmlString = document.getElementsByTagName('main')[0].innerHTML;
