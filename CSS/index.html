@@ -38,7 +38,7 @@
 
         for (let file of data) {
           const response = await fetch(
-            `https://api.github.com/repos/arjunindia/LF-web/contents/${file.name}`
+            `https://api.github.com/repos/arjunindia/LF-web/contents/CSS/${file.name}`
           );
           const files = await response.json();
           const image = files.find(
