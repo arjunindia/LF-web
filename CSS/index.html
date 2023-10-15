@@ -53,7 +53,10 @@
           htmlString += `
 <div class="card">
   <header>
-    <h2><a style="text-decoration: underline;" href="${file.path}">${file.name}</a></h2>
+    <h2><a style="text-decoration: underline;" href="${file.path.replace(
+      "CSS/",
+      ""
+    )}">${file.name}</a></h2>
   </header>
   <img src="${file.imageurl}" alt="${file.name}" style="display: block;"/>
 </div>
