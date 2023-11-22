@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/pacifico/v22/FwZY7-Qmy14u9lezJ-6H6Mk.woff2)
+    format("woff2");
+}
+small[data-astro-cid-j7pv25f6] {
+  background-color: #584966;
+  color: #fdebf3;
+  border-radius: 6px;
+  font-family: Josefin Sans, sans-serif;
+  font-weight: 600;
+  padding: 0.3em 0.6em 0.2em;
+}
+button[data-astro-cid-j7pv25f6] {
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid #78c2ad;
+  border-radius: 8px;
+  color: #fdebf3;
+  font: 600 16px Josefin Sans, sans-serif;
+  padding: 8px 16px;
+  transition: background-color 0.4s, color 0.4s;
+}
+button[data-astro-cid-j7pv25f6]:hover {
+  background-color: #78c2ad;
+  color: #1e1e2e;
+  cursor: pointer;
+}
+.button[data-astro-cid-j7pv25f6] {
+  text-align: center;
+}
+.link-images[data-astro-cid-j7pv25f6] img[data-astro-cid-j7pv25f6] {
+  margin: 16px 4px;
+}
+@media only screen and (max-width: 600px) {
+  .link-images[data-astro-cid-j7pv25f6] img[data-astro-cid-j7pv25f6] {
+    height: 30px;
+    width: 30px;
+    margin: 16px 1px;
+  }
+}
+ul[data-astro-cid-sz7xmlte].icons {
+  cursor: default;
+  list-style: none;
+}
+ul[data-astro-cid-sz7xmlte].icons li[data-astro-cid-sz7xmlte] {
+  display: inline-block;
+  padding: 0 0.75rem 0 0;
+}
+div[data-astro-cid-sz7xmlte] {
+  margin: 4rem 0;
+  text-align: center;
+}
+small[data-astro-cid-sz7xmlte] {
+  font-family: Josefin Sans, sans-serif;
+}
+small[data-astro-cid-sz7xmlte] a[data-astro-cid-sz7xmlte] {
+  color: #375a7f;
+  text-decoration: none;
+}
+html {
+  background-color: #1e1e2e;
+  color: #fdebf3;
+}
+body {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: justify;
+}
+h1,
+h2 {
+  font-family: Pacifico, cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 2.6em;
+  margin: 0;
+}
+h2 {
+  text-decoration: underline #375a7f;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 6px;
+  font-size: 2.1em;
+  margin-bottom: 0;
+}
+p {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 1.1em;
+  hyphens: auto;
+  line-height: 1.5;
+  text-indent: 1em;
+}
+.gif {
+  margin: 20px 0 0;
+  text-align: center;
+}
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0.8rem;
+}
+.title-link,
+.nav-links {
+  font-family: Pacifico, cursive;
+  font-size: 1.3rem;
+}
+.title-link a,
+.nav-links a {
+  color: #fdebf3;
+  text-decoration: none;
+}
+.title-link a:hover,
+.nav-links a:hover,
+a:focus {
+  text-decoration: underline #375a7f;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+.nav-links {
+  font-family: Josefin Sans, sans-serif;
+  font-size: 1.1rem;
+  text-align: right;
+}
+.nav-links a {
+  margin: 0 13px;
+}
+.foot-btn {
+  display: flex;
+  padding: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+.foot-btn:hover {
+  background-color: #87cefa;
+}
+.light .foot-btn {
+  border: 5px solid black;
+}
+.git-icon {
+  content: url(/github-mark-white.svg);
+}
+.mail-icon {
+  content: url(/mail-white.svg);
+}
+.linked-in {
+  content: url(/li-in-white.png);
+}
+.link-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+  gap: 1rem;
+  padding: 0;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    width: 320px;
+  }
+  .nav-bar {
+    display: initial;
+  }
+  .title-link,
+  .nav-links {
+    text-align: center;
+  }
+  .nav-links a {
+    margin: 0 11px;
+  }
+}
+a {
+  text-decoration: none;
+  color: rgb(87, 204, 198);
+}
